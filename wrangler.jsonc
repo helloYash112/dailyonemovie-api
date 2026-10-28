@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dailyonemovie-api",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-28",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "f2fdff9449b0401790496a02d9439be5"
+    }
+  ]
+}
